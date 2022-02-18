@@ -5,7 +5,7 @@ bytefield-svg browser wrapper
 
 Use case: Hugo translated code block(code element with classname and dataset) client-side rendering
 ```html
-<script src="dist/bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/LMinJae/bytefield-svg-browser-wrapper/dist/bundle.js"></script>
 <script>
 	document.addEventListener('DOMContentLoaded', () => {
 		document.body.querySelectorAll('code.language-bytefield').forEach(n => {
